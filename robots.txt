@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://fisioterapia-tibas.sparkling-pond-5c96.workers.dev/sitemap.xml
