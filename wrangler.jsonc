@@ -1,0 +1,10 @@
+{
+  // Worker de assets estáticos (sin código): Cloudflare Workers Builds
+  // ejecuta `npx wrangler deploy` y sirve el sitio desde la raíz del repo.
+  "name": "fisioterapia-tibas",
+  "compatibility_date": "2026-07-18",
+  "assets": {
+    "directory": "./",
+    "not_found_handling": "single-page-application"
+  }
+}
