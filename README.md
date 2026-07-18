@@ -25,9 +25,10 @@ Sitio web de la clínica de fisioterapia y rehabilitación **EDS — Embajadores
 
 ## Deploy
 
-- Hosting: Cloudflare Workers (assets estáticos, deploy automático al pushear a `main` via Workers Builds).
-- Deploy manual: `npx wrangler deploy`
-- Al comprar dominio propio: agregar `<link rel="canonical">`, `og:url` y `sitemap.xml` con la URL final.
+- Producción: https://fisioterapia-tibas.sparkling-pond-5c96.workers.dev (Cloudflare Worker, assets estáticos)
+- Preview: https://emu-soluciones.github.io/fisioterapia_tibas/ (GitHub Pages)
+- Deploy: `npx wrangler deploy` (manual). Para deploy automático al pushear a `main`, conectar el repo en Cloudflare Dash → Workers → fisioterapia-tibas → Settings → Builds.
+- Al comprar dominio propio: actualizar `canonical`, `og:url`, `sitemap.xml` y `robots.txt` con la URL final.
 
 ## Contacto del cliente
 
